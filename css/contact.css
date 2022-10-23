@@ -43,6 +43,12 @@ h1{
     text-align: center;
 }
 
+ul{
+    padding: 0px;
+    list-style-type: none;
+    border: 2px solid rgb(255, 164, 164);
+}
+
 .flex{
     display: flex;
     justify-content: center;
