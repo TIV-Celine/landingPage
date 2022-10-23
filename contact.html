@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/Logo Monexion.png" alt="Logo">
+        </div>
+        <nav>
+            <div class="main_pages">
+                <a href="file:///Users/celine/Desktop/HTML%20-%20CSS/index.html">Accueil</a>
+                <a href="file:///Users/celine/Desktop/HTML%20-%20CSS/A%20propos%20de%20nous.html">A propos de nous</a>
+                <a href="file:///Users/celine/Desktop/HTML%20-%20CSS/produit.html">Produit</a>
+                <a href="file:///Users/celine/Desktop/HTML%20-%20CSS/contact.html">Contact</a>
+            </div><br>
+        </nav>
+    </header><br>
+    <main>
+        <h1>Contact</h1>
+        <ul class="flex">
+            <table class="form-style">
+                <tr>
+                   <td>
+                      <label>
+                         Votre nom <span class="required">*</span>
+                      </label>
+                   </td>
+                   <td>
+                      <input type="text" name="name" class="long"/>
+                      <span class="error" id="errorname"></span>
+                   </td>
+                </tr>
+                <tr>
+                   <td>
+                      <label>
+                         Votre adresse e-mail <span class="required">*</span>
+                      </label>
+                   </td>
+                   <td>
+                      <input type="email" name="email" class="long"/>
+                      <span class="error" id="erroremail"></span>
+                   </td>
+                </tr>
+                <tr>
+                   <td>
+                      <label>
+                         Message <span class="required">*</span>
+                      </label>
+                   </td>
+                   <td>
+                      <textarea name="message" class="long field-textarea"></textarea>
+                      <span class="error" id="errormsg"></span>
+                   </td>
+                </tr>
+                <tr>
+                   <td></td>
+                   <td>
+                      <input type="submit" value="Envoyer">      
+                   </td>
+                </tr>
+             </table>
+        </ul>
+    </main>
+</body>
+</html>
